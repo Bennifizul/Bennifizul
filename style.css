@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.header{
+    height: 100px;
+    width: auto;
+    border: 1px solid green;
+    background-color: gray;
+    position: sticky;
+}
+.header ul li {
+ list-style-type: none;
+ float: right;
+ margin: 5px;
+ text-decoration: underline;
+}
+body{
+    margin: 0px; padding: 0px;
+}
+#home{
+    margin: 5px;
+    float: right;
+}
+strong{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: uppercase;
+    margin-bottom: 2.5rem;
+}
+p{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.slideshow,.slideshow1,.slideshow2{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.june{
+    height: 550px;
+    width: 1350px;
+}
+.sam,.sam1,.sam2{
+    width: 1000px;
+    animation: zoom-out 3s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    size: 100%;
+    margin: 50px;
+}
+.slideshow-item-text{
+    position: absolute;
+    width: 600px;
+    top: 200px;
+    left: 100px;
+    color: blue;
+    margin-top: -100px;
+    margin-left: -80px;
+}
+p{
+    margin-top: 20px;
+}
+
+.slideshow{
+    animation: slide1 12s linear infinite;
+}
+.slideshow1{
+    animation: slide2 12s linear infinite;
+}
+.slideshow2{
+    animation: slide3 12s linear infinite;
+}
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+.dami{
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    height: 500px;
+    width: 800px;
+    margin: 250px;
+    margin-left: 120px;
+    padding-left: 300px;
+    float: left;
+}
+.damn{
+    float: right;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    margin-top: -1000px;
+    box-sizing: border-box;
+    padding-left: 150px;
+}
+#men{
+    text-align: justify;
+    color: black;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.bisola{
+    height: 280px;
+    width: 1345px;
+    margin-top: 550px;
+    position: absolute;
+}
+.backtext{
+    margin-top: -200px;
+    color: white;
+    text-align: center;
+    font-style: bold;
+    font-size: large;
+}
+.apps{
+    height: 500px;
+    width: 1350px;
+    display: grid;
+    position: absolute;
+    margin-top: 870px;
+    text-align: center;
+}
+.item1{
+    grid-column: 1/span 1;
+    grid-row: 1;
+}
+.item3{
+    grid-column: 3;
+    grid-row: 1/span 1;
+}
+.item6{
+    grid-column: 3;
+    grid-row: 2/span 3;
+}
+h2{
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: normal;
+}
+.progress{
+    background-color: #1a1a1a;
+    height: 400px;
+    width: 1345px;
+    position: absolute;
+    margin-top: 1250px;
+    text-align: center;
+}
+
+#bar{
+    width: 1000px;
+    height: 20px;
+    margin-bottom: 50px;
+}
+h5{
+    text-align: left;
+    color: white;
+    padding-left: 175px;
+    font-weight: normal;
+    font-size: medium;
+}
+
+
